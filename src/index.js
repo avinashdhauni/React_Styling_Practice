@@ -13,7 +13,7 @@ const customStyle = {
 if (currentDate < 12) {
   greeting = "Good Morning";
   customStyle.color = "red";
-} else if (currentDate > 18) {
+} else if (currentDate < 18) {
   greeting = "Good Afternoon";
   customStyle.color = "green";
 } else {
